@@ -1,6 +1,8 @@
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Grid from "./components/Grid";
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 import { navItems } from "./data/NavItems";
 import Projects from "./components/Projects";
 import Unavailable from "./pages/Unavailable";
@@ -18,6 +20,8 @@ const App = () => {
                 <Hero />
                 <Grid />
                 <Projects />
+                <Contact/>
+                <Footer />
               </>
             } />
             <Route path="/unavailable" element={<Unavailable />} />

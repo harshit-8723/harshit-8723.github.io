@@ -6,9 +6,9 @@ const Projects = () => {
     return (
         <section id="projects" >
             <div className='relative w-full min-h-screen mt-7'>
-                <h1 className='text-3xl md:text-5xl font-extrabold text-white z-3 text-center m-5'>
+                <h3 className='text-3xl md:text-4xl font-bold text-white z-3 text-center m-5'>
                     Some Of My Projects
-                </h1>
+                </h3>
 
                 <div className='flex flex-wrap items-center justify-evenly'>
                     {projects.map((item,ind)=>(

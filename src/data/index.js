@@ -77,7 +77,7 @@ export const projects = [
   },
   {
     title: "Edu Ai",
-    description: "This web application leverages AI to generate multiple-choice questions (MCQs) and flashcards, making studying more efficient and effective.",
+    description: "This web application leverages AI to generate multiple-choice questions (MCQs) and flashcards, making studying effective.",
     image: "./others/preview_eduAi.png",
     githubLink: "https://github.com/harshit-8723/edu-ai",
     liveSiteLink: "#",
@@ -90,3 +90,8 @@ export const projects = [
     liveSiteLink: "#",
   },
 ];
+
+export const footerLinks = {
+  linkedinUrl: "https://www.linkedin.com/in/harshit-bhatt-0x2214",
+  email: "mailto:bhattharshit2005@gmail.com"
+};
