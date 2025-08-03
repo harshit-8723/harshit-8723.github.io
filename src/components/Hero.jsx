@@ -62,7 +62,7 @@ const Hero = () => {
                                 icon={<FaArrowDown />}
                             />
                         </a>
-                        <a href="#about">
+                        <a href="./others/Harshit_Bhatt_Resume.pdf" download={true}>
                             <MagicButton
                                 title="Download Resume"
                                 position="right"
