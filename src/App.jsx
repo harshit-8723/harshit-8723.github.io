@@ -1,10 +1,10 @@
-import Hero from "./components/Hero";
+import Hero from "./sections/Hero";
 import NavBar from "./components/NavBar";
-import Grid from "./components/Grid";
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+import Grid from "./sections/Grid";
+import Contact from "./sections/Contact"
+import Footer from "./sections/Footer"
 import { navItems } from "./data/NavItems";
-import Projects from "./components/Projects";
+import Projects from "./sections/Projects";
 import Unavailable from "./pages/Unavailable";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

@@ -1,9 +1,9 @@
-import { Spotlight } from "./ui/Spotlight.jsx";
+import { Spotlight } from "../components/ui/Spotlight.jsx";
 import { cn } from "../libs/utils.js";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect.jsx";
-import MagicButton from "./ui/MagicButton.jsx";
+import { TextGenerateEffect } from "../components/ui/TextGenerateEffect.jsx";
+import MagicButton from "../components/ui/MagicButton.jsx";
 import { FaLocationArrow, FaArrowDown } from "react-icons/fa";
-import SimpleButton from "./ui/SimpleButton.jsx";
+import SimpleButton from "../components/ui/SimpleButton.jsx";
 
 const Hero = () => {
     return (
