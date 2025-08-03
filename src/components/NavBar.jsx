@@ -1,5 +1,3 @@
-import { FaHome, FaUser, FaEnvelope } from "react-icons/fa";
-
 const NavBar = ({ navItems }) => {
   return (
     <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 w-full z-10 bg-white dark:bg-black shadow-md opacity-90 rounded-full border
@@ -21,10 +19,12 @@ const NavBar = ({ navItems }) => {
           </div>
 
           {/* Contact Me  Button */}
-          <button className="px-2 py-2 text-sm w-25 h-10 font-medium text-black dark:text-white border border-neutral-200 dark:border-white/[0.2] rounded-full relative ml-4">
-            <span>Contact Me</span>
-            <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent"></span>
-          </button>
+          <a href="#contact">
+            <button className="px-2 py-2 text-sm w-25 h-10 font-medium text-black dark:text-white border border-neutral-200 dark:border-white/[0.2] rounded-full relative ml-4 hover:cursor-pointer">
+              <span>Contact Me</span>
+              <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent"></span>
+            </button>
+          </a>
         </div>
       </div>
     </nav>
