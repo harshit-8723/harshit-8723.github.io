@@ -65,3 +65,28 @@ export const items = [
     img: "",
   }
 ];
+
+
+export const projects = [
+  {
+    title: "Vulnera Scan",
+    description: "A simple vulnerability web scanner for checking common vulnerabilities.",
+    image: "./others/preview_vulneraScan.png",
+    githubLink: "https://github.com/harshit-8723/vulnera_scan",
+    liveSiteLink: "#",
+  },
+  {
+    title: "Edu Ai",
+    description: "This web application leverages AI to generate multiple-choice questions (MCQs) and flashcards, making studying more efficient and effective.",
+    image: "./others/preview_eduAi.png",
+    githubLink: "https://github.com/harshit-8723/edu-ai",
+    liveSiteLink: "#",
+  },
+  {
+    title: "Chat App",
+    description: "A full-stack chat app, built using MERN stack.",
+    image: "./others/preview_chatApp.png",
+    githubLink: "https://github.com/harshit-8723/chat-app",
+    liveSiteLink: "#",
+  },
+];
