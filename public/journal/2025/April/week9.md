@@ -1,0 +1,1 @@
+Today in class, ma'am gave the remaining students a chance to share their cover letters and speeches. Those who hadn’t presented earlier got an opportunity to speak and receive feedback. It was a good session to learn from others' work and understand different ways of writing speech and got content that I may add in my speech in future.

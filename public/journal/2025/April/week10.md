@@ -1,0 +1,6 @@
+Today in class, the remaining students, including me, were given the chance to deliver our speeches. Many of my classmates spoke really well, and it was inspiring to hear their thoughts and stories. The atmosphere was supportive, and everyone presented with confidence and emotion. It was a very insightful session.
+
+When my turn came, I shared a personal and emotional speech. I spoke about how sometimes we feel left behind, unseen, or like we’re not doing enough—even when we are trying our best. I included the story of Lonesome George, the last Galapagos tortoise of his kind, as a powerful message. His species went extinct partly because they watched others, like goats, move fast and take over, while they failed to adapt or focus on their own survival. This reflected how we, too, sometimes stop focusing on our own lives because we’re too busy comparing ourselves to others. His story reminded us that comparison can distract us from growth and lead to loss, while staying focused on our own path gives true meaning.
+
+Ma'am and the class listened attentively, and I felt grateful for the chance to express something so meaningful.  
+This experience also helped reduce my stage fear and made me feel more confident speaking in front of others.

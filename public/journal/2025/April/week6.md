@@ -1,0 +1,3 @@
+Today, I attended the class where the remaining groups gave their presentations. It was interesting to listen to different topics and see how each group explained their points. Every group had prepared well, and their presentations were informative. I got to learn new things from each group, especially how they used examples and explained their content.
+
+It was also helpful to observe how different teams presented their ideas and handled questions. Ma'am gave feedback to each group, which also helped me understand what makes a good presentation. Overall, it was a good learning experience, and I enjoyed watching my classmates share their work.

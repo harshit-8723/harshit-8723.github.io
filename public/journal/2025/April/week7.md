@@ -1,0 +1,5 @@
+Today, I attended the class where ma'am gave us useful insights on how to write a proper cover letter and a professional email. She also explained some common mistakes that we should avoid while writing them. After the explanation, ma'am gave us a task to write a cover letter for a job application. Along with that, she gave us a homework question—to write a cover email seeking permission from the HOD to attend a hackathon.
+
+Ma'am gave us time in class to complete the cover letter, and my classmates and I started writing. I got the chance to read my cover letter aloud in front of the class. Ma'am gave me helpful feedback and pointed out the areas where I could improve. Her suggestions were really useful and will help me write better in the future.
+
+That’s all for today’s class. It was a good learning experience.

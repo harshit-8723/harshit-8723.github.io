@@ -1,10 +1,59 @@
 {
-  "2024": {
+  "2025": {
+    "February": [
+      {
+        "name": "week1.md",
+        "title": "Week 1 – PESE Kickoff & Life Insights",
+        "date": "2025-02-06"
+      },
+      {
+        "name": "week2.md",
+        "title": "Week 2 – Fun Activities, Profiling Sheet & PPT Preparation",
+        "date": "2025-02-15"
+      },
+      {
+        "name": "week3.md",
+        "title": "Week 3 – Team Activity",
+        "date": "2025-02-19"
+      }
+    ],
     "March": [
       {
-        "name": "reflection.md",
-        "title": "Spring Break Reflections",
-        "date": "2024-03-15"
+        "name": "week4.md",
+        "title": "Week 4 – Presentation Day (AI Dilemma Presentation)",
+        "date": "2025-03-05"
+      },
+      {
+        "name": "week5.md",
+        "title": "Week 5 – Exam Day",
+        "date": "2025-03-19"
+      }
+    ],
+    "April": [
+      {
+        "name": "week6.md",
+        "title": "Week 6 – Presentation Of My Classmates",
+        "date": "2025-04-02"
+      },
+      {
+        "name": "week7.md",
+        "title": "Week 7 – Cover Letter & Email",
+        "date": "2025-04-09"
+      },
+      {
+        "name": "week8.md",
+        "title": "Week 8 – LSRW Techniques & Vocabulary Building",
+        "date": "2025-04-16"
+      },
+      {
+        "name": "week9.md",
+        "title": "Week 9 – Peer Learning & Feedback Insights",
+        "date": "2025-04-23"
+      },
+      {
+        "name": "week10.md",
+        "title": "Week 10 – My Speech",
+        "date": "2025-04-30"
       }
     ]
   }

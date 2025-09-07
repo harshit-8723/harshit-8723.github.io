@@ -1,0 +1,5 @@
+Week 2 started today. Ma’am was busy with her work, so she sent Anshuman Sir to take our class. It was fun interacting with him—he is a really funny, interesting, and knowledgeable teacher. Until Ma’am arrived, he gave us some assignment questions provided by her and discussed them, which helped everyone understand how to respond to such questions during interviews.
+
+After discussing some of the questions, we did an activity that reminded me of my childhood days—how we used to play and have fun in class. While we were engaged in the activity, Ma’am arrived and gave us instructions for next week’s homework, which I am currently working on. The only task I have left is to write the answers to the questions given by Ma’am.
+
+However, I also need to prepare for the PPT that we have to present in our next class. One more challenge is that I have to complete it early because the timetable has changed. Instead of our class being on Saturday, it is now on Wednesday.

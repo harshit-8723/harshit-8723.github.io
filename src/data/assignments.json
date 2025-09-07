@@ -1,18 +1,39 @@
 {
-  "Semester-1": [
+  "Semester-5": [
     {
-      "name": "be.pdf",
-      "title": "Data Structures Assignment",
+      "name": "pese_week1.pdf",
+      "title": "Kicking Off PESE Lab: The First Step into Our 5th Semester Journey",
       "type": "pdf",
-      "subject": "CS101",
-      "date": "2024-03-15"
+      "subject": "PESE LAB",
+      "date": "WEEK-1"
     },
     {
-      "name": "project-video.mp4",
-      "title": "Algorithm Demo Video", 
-      "type": "mp4",
-      "subject": "CS102",
-      "date": "2024-03-20"
+      "name": "pese_week2.pdf",
+      "title": "The WOW Factor: Fun, Games, and Sparks of Inspiration",
+      "type": "pdf",
+      "subject": "PESE LAB",
+      "date": "WEEK-2"
+    },
+    {
+      "name": "pese_week3.pdf",
+      "title": "The Jar of Life: Stones, Pebbles, Water, and Your Biggest Goal",
+      "type": "pdf",
+      "subject": "PESE LAB",
+      "date": "WEEK-3"
+    },
+    {
+      "name": "pese_week4.pdf",
+      "title": "Every Story Has a Beginning: Finding Meaning Behind the Lesson",
+      "type": "pdf",
+      "subject": "PESE LAB",
+      "date": "WEEK-4"
+    },
+    {
+      "name": "pese_week5.pdf",
+      "title": "Words of Wisdom: Insights and Knowledge from Our Teacher",
+      "type": "pdf",
+      "subject": "PESE LAB",
+      "date": "WEEK-5"
     }
   ]
 }
