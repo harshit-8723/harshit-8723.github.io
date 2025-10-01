@@ -87,7 +87,7 @@ export const projects = [
     description: "A full-stack chat app, built using MERN stack.",
     image: "./others/preview_chatApp.png",
     githubLink: "https://github.com/harshit-8723/chat-app",
-    liveSiteLink: "#",
+    liveSiteLink: "https://chat-app-1d9v.onrender.com/",
   },
 ];
 
