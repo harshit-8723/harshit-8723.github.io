@@ -25,7 +25,7 @@ const Unavailable = () => {
                         
                         {/* Icon and Title */}
                         <div className="flex items-center justify-center gap-4 mb-6">
-                            <CgUnavailable className="w-12 h-12 text-orange-500" />
+                            <CgUnavailable className="w-12 h-12 text-blue-500" />
                             <h1 className="text-3xl md:text-5xl font-bold text-gray-800 dark:text-gray-200">
                                 Live Site Not Available
                             </h1>
@@ -43,7 +43,7 @@ const Unavailable = () => {
                             {/* Go Home Button */}
                             <a 
                                 href="/" 
-                                className="flex items-center gap-3 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-lg transition-all duration-300 hover:scale-105 shadow-lg font-medium"
+                                className="flex items-center gap-3 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-all duration-300 hover:scale-105 shadow-lg font-medium"
                             >
                                 <FaHome className="w-4 h-4" />
                                 Go Home
