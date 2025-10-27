@@ -62,6 +62,7 @@ const AssignmentViewer = () => {
               <video 
                 controls 
                 className="max-w-full h-auto rounded-lg shadow-lg"
+                aria-label={`Video ${filename}`}
                 style={{ maxHeight: '70vh' }}
               >
                 <source src={filePath} type="video/mp4" />
@@ -160,6 +161,7 @@ const AssignmentViewer = () => {
                 transformOrigin: '0 0'
               }}
               title={filename}
+              aria-label={`Document ${filename}`}
               className="border-0"
             >
               <p>Your browser does not support PDFs. 
@@ -173,7 +175,7 @@ const AssignmentViewer = () => {
           {/* Alternative fallback */}
           <div className="mt-4 text-center">
             <p className="text-gray-600 dark:text-gray-400 mb-2">
-              PDF not displaying properly? 
+              PDF not displaying properly? | Or View on Laptop or PC
             </p>
             <div className="space-x-4">
               <a
