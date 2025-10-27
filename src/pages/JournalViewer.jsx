@@ -7,7 +7,7 @@ import { FaArrowLeft, FaDownload, FaPlay, FaFileAlt, FaFilePdf, FaBook, FaExpand
 const JournalViewer = () => {
   const { year, month, filename } = useParams();
   const navigate = useNavigate();
-  
+
   const [content, setContent] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -126,8 +126,8 @@ const JournalViewer = () => {
           {/* Video Player */}
           <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-lg">
             <div className="flex justify-center">
-              <video 
-                controls 
+              <video
+                controls
                 className="max-w-full h-auto rounded-lg shadow-lg"
                 style={{ maxHeight: '70vh' }}
               >
@@ -218,8 +218,8 @@ const JournalViewer = () => {
           <div className="bg-white border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg overflow-hidden">
             <iframe
               src={filePath}
-              style={{ 
-                width: '100%', 
+              style={{
+                width: '100%',
                 height: '80vh',
                 transform: `scale(${scale})`,
                 transformOrigin: '0 0'
@@ -305,10 +305,89 @@ const JournalViewer = () => {
               </div>
             </div>
 
-            {/* Markdown Content - FIXED */}
+            {/* Markdown Content  */}
             <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-lg">
-              <div className="prose prose-lg max-w-none prose-gray dark:prose-invert text-white">
-                <ReactMarkdown>{content}</ReactMarkdown>
+              <div className="prose prose-lg max-w-none prose-gray dark:prose-invert">
+                <ReactMarkdown
+                  components={{
+                    h1: ({ ...props }) => (
+                      <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100" {...props} />
+                    ),
+                    h2: ({ ...props }) => (
+                      <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100" {...props} />
+                    ),
+                    a: ({ ...props }) => (
+                      <a className="text-blue-600 dark:text-blue-400 underline" {...props} />
+                    ),
+                    p: ({ ...props }) => (
+                      <p className="text-black dark:text-white" {...props} />
+                    ),
+                    li: ({ ...props }) => (
+                      <li className="text-gray-800 dark:text-gray-200 list-disc ml-6" {...props} />
+                    ),
+                    ul: ({ ...props }) => (
+                      <ul className="list-disc ml-6 space-y-1" {...props} />
+                    ),
+                    ol: ({ ...props }) => (
+                      <ol className="list-decimal ml-6 space-y-1" {...props} />
+                    ),
+                    blockquote: ({ ...props }) => (
+                      <blockquote className="border-l-4 pl-4 italic text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600" {...props} />
+                    ),
+                    code: ({ inline, className, children, ...props }) => (
+                      <code
+                        className={`${inline ? 'px-1 rounded text-sm' : 'block p-4 rounded overflow-auto'} bg-gray-100 dark:bg-gray-800 text-red-600 dark:text-red-400 ${className || ''}`}
+                        {...props}
+                      >
+                        {children}
+                      </code>
+                    ),
+                    h3: ({ ...props }) => (
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100" {...props} />
+                    ),
+                    h4: ({ ...props }) => (
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100" {...props} />
+                    ),
+                    h5: ({ ...props }) => (
+                      <h5 className="text-base font-medium text-gray-900 dark:text-gray-100" {...props} />
+                    ),
+                    h6: ({ ...props }) => (
+                      <h6 className="text-sm font-medium text-gray-900 dark:text-gray-100" {...props} />
+                    ),
+                    strong: ({ ...props }) => (
+                      <strong className="font-semibold text-gray-900 dark:text-gray-100" {...props} />
+                    ),
+                    em: ({ ...props }) => (
+                      <em className="italic text-gray-800 dark:text-gray-200" {...props} />
+                    ),
+                    hr: ({ ...props }) => (
+                      <hr className="border-t my-6 border-gray-200 dark:border-gray-700" {...props} />
+                    ),
+                    img: ({ ...props }) => (
+                      <img className="max-w-full rounded-md my-4" {...props} />
+                    ),
+                    table: ({ ...props }) => (
+                      <table className="min-w-full border-collapse my-4" {...props} />
+                    ),
+                    thead: ({ ...props }) => (
+                      <thead className="bg-gray-100 dark:bg-gray-800" {...props} />
+                    ),
+                    tbody: ({ ...props }) => (
+                      <tbody {...props} />
+                    ),
+                    tr: ({ ...props }) => (
+                      <tr className="border-t border-gray-200 dark:border-gray-700" {...props} />
+                    ),
+                    th: ({ ...props }) => (
+                      <th className="px-3 py-2 text-left font-medium text-gray-700 dark:text-gray-200" {...props} />
+                    ),
+                    td: ({ ...props }) => (
+                      <td className="px-3 py-2 text-gray-800 dark:text-gray-200" {...props} />
+                    ),
+                  }}
+                >
+                  {content}
+                </ReactMarkdown>
               </div>
             </div>
           </>
